@@ -23,7 +23,7 @@ class BirdCard extends BaseComponent {
     const infoWrapper = new BaseComponent('.info-wrapper');
     infoWrapper.append(this.image, info);
 
-    this.desc = new BaseComponent('p.description');
+    this.desc = new BaseComponent('p.alimentation');
     this.alimentation = new BaseComponent('p.alimentation');
     this.species = new BaseComponent('p.description');
     this.lng = new BaseComponent('p.alimentation');
@@ -145,7 +145,7 @@ class BirdCard extends BaseComponent {
     // Set common and scientific names
     this.commonName.text = this.hidden ? NAME_ALIAS : bird.name;
     this.scientificName.classList.toggle('hidden', this.hidden === true);
-    this.scientificName.text = this.hidden ? NAME_ALIAS : bird.species;
+    this.scientificName.text = this.hidden ? NAME_ALIAS : bird.latinName;
 
     // Player configuration
     this.player.src = bird.audio;

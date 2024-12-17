@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "deploy": "npm run build && gh-pages --dist dist --dest ATTECREN --add"
+    "deploy": "yarn build && gh-pages --dist dist --dest ATTECREN --add"
   },
   "engines": {
     "node": ">=16.0.0"
