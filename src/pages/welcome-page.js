@@ -1,6 +1,8 @@
 import BaseComponent from '../components/base-component';
 import { lang, lng } from '../services/language';
 import { PAGES, state } from '../services/state';
+import logoImage from '../assets/images/logo.jpg'; // Path to your logo image
+
 import Page from './page';
 
 class WelcomePage extends Page {
@@ -9,7 +11,10 @@ class WelcomePage extends Page {
     const wrapper = new BaseComponent('.card.card-wrapper');
     this.title = new BaseComponent('h2.page-title');
     this.message = new BaseComponent('p');
-    wrapper.append(this.title, this.message);
+    this.logo = new BaseComponent('img');
+    this.logo.element.src = logoImage;
+    this.logo.element.style.width = '300px';
+    wrapper.append(this.title, this.logo, this.message);
 
     this.playButton = new BaseComponent('button.text-button');
     this.playButton.onclick(() => {
