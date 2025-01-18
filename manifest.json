@@ -1,0 +1,23 @@
+{
+    "name": "ATTECREN oiseaux",
+    "short_name": "ATTECREN",
+    "description": "Application pour les sons des oiseaux crée par ATTECREN",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/images/logoSmall.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logoSmall.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
