@@ -151,7 +151,6 @@ class BirdCard extends BaseComponent {
     this.image.element.alt = this.hidden ? UNKNOWN_BIRD : bird.species;
 
     // Set common and scientific names
-    console.log(bird.hasFlag);
     if (bird.hasFlag) {
       this.commonName.element.innerHTML = this.hidden
         ? NAME_ALIAS

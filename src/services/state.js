@@ -35,7 +35,7 @@ const EVENTS = {
   scoreChange: 'scorechange',
 };
 
-const MAX_SCORE = 30;
+const MAX_SCORE = 35;
 
 class State {
   constructor() {
