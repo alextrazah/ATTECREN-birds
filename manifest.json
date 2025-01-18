@@ -4,7 +4,7 @@
     "description": "Application pour les sons des oiseaux crée par ATTECREN",
     "version": "1.0.0",
     "manifest_version": 2,
-    "start_url": "/index.html",
+    "start_url": "https://alextrazah.github.io/ATTECREN-birds/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
