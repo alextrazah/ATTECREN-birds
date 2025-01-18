@@ -61,7 +61,7 @@ const strings = {
     [lng.resultsMaximumMessage]:
       'Vous avez obtenu le score maximum de yyy points dans ce quiz. Bravo !',
     [lng.tryAgain]: 'Réessayer',
-    [lng.welcomeTitle]: 'Bienvenue sur ATTECREN !',
+    [lng.welcomeTitle]: 'Bienvenue sur ATEECREN !',
     [lng.welcomeMessage]: `On vous présente une application de quiz qui teste votre capacité à reconnaître 
                           les chants d'oiseaux communs. Veuillez sélectionner une des options ci-dessous.`,
     [lng.welcomePlay]: 'Commencer le quiz',
@@ -89,7 +89,7 @@ const strings = {
     [lng.resultsMaximumMessage]: 'رائع! لقد حصلت على الحد الأقصى من النقاط (yyy) في هذا الاختبار!',
     [lng.tryAgain]: 'حاول مرة أخرى',
 
-    [lng.welcomeTitle]: 'ATTECREN مرحبًا بك في',
+    [lng.welcomeTitle]: 'ATEECREN مرحبًا بك في',
     [lng.welcomeMessage]: ` نقدم لكم تطبيق مه خلال اختبار يتيح لك التعرف على أصوات الطيور. 
                           للبدء، اختر أحد الخيارات أدناه.`,
     [lng.welcomePlay]: 'ابدأ الاختبار',

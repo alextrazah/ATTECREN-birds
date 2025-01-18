@@ -1,4 +1,4 @@
-# ATTECREN Quiz
+# ATEECREN Quiz
 
 **_SongBird_** is a fun and engaging quiz app that challenges your ability to recognize common bird songs. It offers a unique and enjoyable way to learn about birds while testing your knowledge.
 

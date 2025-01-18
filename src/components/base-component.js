@@ -24,7 +24,9 @@ class BaseComponent {
   constructor(selector) {
     this.selector = selector || 'div';
     const classes = this.selector.split('.');
-    this.element = document.createElement(classes[0] === '' ? 'div' : classes[0]);
+    this.element = document.createElement(
+      classes[0] === '' ? 'div' : classes[0],
+    );
     classes.shift();
     if (classes.length > 0) {
       this.element.classList.add(...classes);
@@ -59,6 +61,11 @@ class BaseComponent {
 
   onclick(callback) {
     this.addEvent('click', callback);
+  }
+
+  // add clear
+  clear() {
+    this.element.innerHTML = '';
   }
 }
 

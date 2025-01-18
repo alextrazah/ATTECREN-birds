@@ -2,6 +2,7 @@ import { lang, lng } from '../services/language';
 import BaseComponent from './base-component';
 import hiddenBird from '../assets/images/hidden-bird.jpg';
 import Player from './player';
+import tnFlag from '../assets/images/tnFlag.png';
 
 const NAME_ALIAS = '******';
 const UNKNOWN_BIRD = 'Unknown bird';
@@ -12,7 +13,7 @@ class BirdCard extends BaseComponent {
 
     this.modal = this.createModal();
     this.image = new BaseComponent('img');
-    this.image.element.style.cursor = 'pointer'; // Indicate clickable behavior
+    this.image.element.style.cursor = 'pointer';
 
     const info = new BaseComponent('.info');
     this.commonName = new BaseComponent('h3.common-name');
@@ -106,6 +107,13 @@ class BirdCard extends BaseComponent {
 
     this.modal.image.element.src = imageSrc; // Set modal image
     this.modal.element.style.display = 'block';
+
+    // Preserve the current scroll position when opening the modal
+    const scrollPosition = window.scrollY; // Get the current scroll position
+    this.modal.element.style.top = `${scrollPosition}px`; // Set the modal's top position based on the current scroll
+
+    // Optional: Add a smooth transition when opening the modal (if desired)
+    this.modal.element.style.transition = 'top 0.3s ease'; // Smooth transition
   }
 
   closeModal() {
@@ -143,7 +151,14 @@ class BirdCard extends BaseComponent {
     this.image.element.alt = this.hidden ? UNKNOWN_BIRD : bird.species;
 
     // Set common and scientific names
-    this.commonName.text = this.hidden ? NAME_ALIAS : bird.name;
+    console.log(bird.hasFlag);
+    if (bird.hasFlag) {
+      this.commonName.element.innerHTML = this.hidden
+        ? NAME_ALIAS
+        : `${bird.name} <img src="${tnFlag}" alt="French Flag" style="width: 20px; height: 15px; margin-left: 10px; vertical-align: middle;">`;
+    } else {
+      this.commonName.text = this.hidden ? NAME_ALIAS : bird.name;
+    }
     this.scientificName.classList.toggle('hidden', this.hidden === true);
     this.scientificName.text = this.hidden ? NAME_ALIAS : bird.latinName;
 

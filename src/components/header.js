@@ -8,7 +8,7 @@ class Header extends BaseComponent {
   constructor() {
     const logo = new BaseComponent('img.logo');
     logo.element.src = logoImage; // Set the image source
-    logo.element.alt = 'ATTECREN Logo'; // Accessibility alt text
+    logo.element.alt = 'ATEECREN Logo'; // Accessibility alt text
 
     super('header');
     this.append(logo, new Score(), new Menu(), new LanguageSwitch());

@@ -20,10 +20,9 @@ const birdsDataEn = [
       alimentation:
         'Rongeurs, petits mammifères (lièvres, louveteaux, petits chacals)',
       status: 'Commun',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/305364081/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/549080/mp3',
+      image: '/assets/images/305364081_1800.jpg',
+      audio: '/assets/audio/549080_mp3.mp3',
+      hasFlag: true,
     },
     {
       name: 'Epervier d’Europe',
@@ -35,10 +34,8 @@ const birdsDataEn = [
         'Forêts, maquis et zones montagneuses d’Afrique, d’Europe et d’Asie',
       alimentation: 'Petits oiseaux',
       status: 'Commun',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/254927951/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/553432/mp3',
+      image: '/assets/images/254927951_1800.jpg',
+      audio: '/assets/audio/553432_mp3.mp3',
     },
     {
       name: 'Harpie féroce',
@@ -49,10 +46,8 @@ const birdsDataEn = [
       description: 'Forêts tropicales et équatoriales d’Amérique du Sud',
       alimentation: 'Mammifères, oiseaux, serpents',
       status: 'Rare',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/245402661/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/540007/mp3',
+      image: '/assets/images/245402661_1800.jpg',
+      audio: '/assets/audio/540007_mp3.mp3',
     },
     {
       name: 'Harfang des neiges',
@@ -64,10 +59,8 @@ const birdsDataEn = [
       alimentation:
         'Petits mammifères (rongeurs...), oiseaux (canards, oies …), occasionnellement des poissons',
       status: 'Commun',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/297365891/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/549169/mp3',
+      image: '/assets/images/297365891_1800.jpg',
+      audio: '/assets/audio/549169_mp3.mp3',
     },
     {
       name: 'Hibou grand duc',
@@ -79,11 +72,10 @@ const birdsDataEn = [
         'Forêts, plaines, et zones sèches du nord Afrique, d’Europe et d’Asie',
       alimentation:
         'Rongeurs, lièvres, vipères, lézards, serpents, louveteaux ou petits chacals',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/258097941/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527577/mp3',
+      image: '/assets/images/258097941_1800.jpg',
+      audio: '/assets/audio/527577_mp3.mp3',
       status: 'Commun',
+      hasFlag: true,
     },
     {
       name: 'Condor de Californie',
@@ -94,10 +86,8 @@ const birdsDataEn = [
       description: 'Forêts du Nord du continent américain, Mexique',
       alimentation:
         'Cadavres d’animaux sauvages et domestiques (Vaches et moutons) et petits mammifères',
-      image:
-        'https://www.leesonphoto.com/img-get/I000041Oqw1wdcaE/s/600/600/C3A0286.jpg',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/522053/mp3',
+      image: '/assets/images/600_C3A0286.jpg',
+      audio: '/assets/audio/522053_mp3.mp3',
       status: 'Relativement rare',
     },
   ],
@@ -109,10 +99,8 @@ const birdsDataEn = [
       lng: '30 cm',
       span: '50 – 55 cm',
       description: 'Forêts de Porto Rico',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/536459/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/106627111/1800',
+      audio: '/assets/audio/536459_mp3.mp3',
+      image: '/assets/images/106627111_1800.jpg',
       alimentation: 'Fleurs, fruits, feuilles végétales',
       status: 'Très rare',
     },
@@ -121,10 +109,8 @@ const birdsDataEn = [
       latinName: 'Ara ararauna',
       species: 'Psittacidés',
       lng: '86 cm',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/530282/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/58162541/1800',
+      audio: '/assets/audio/530282_mp3.mp3',
+      image: '/assets/images/58162541_1800.jpg',
       span: '104 – 114 cm',
       description: 'Forêts tropicales, du Panama à São Paulo, Brésil',
       alimentation: 'Fruits',
@@ -136,10 +122,8 @@ const birdsDataEn = [
       species: 'Psittacidés',
       lng: '39 cm',
       span: '55 – 59 cm',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/546545/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/240817371/1800',
+      audio: '/assets/audio/546545_mp3.mp3',
+      image: '/assets/images/240817371_1800.jpg',
       description: "Forêts humides des pays d'Afrique centrale et de l'Ouest",
       alimentation: 'Principalement des fruits et des graines',
       status: 'Commun',
@@ -150,10 +134,8 @@ const birdsDataEn = [
       species: 'Cuculidés',
       lng: '46 cm',
       span: '60 - 65 cm',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/547236/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/252001001/1800',
+      audio: '/assets/audio/547236_mp3.mp3',
+      image: '/assets/images/252001001_1800.jpg',
       description: 'Forêts pluvieuses du Sri Lanka',
       alimentation: 'Insectes, vers, petits vertébrés (rongeurs, lézards…)',
       status: 'En voie d’extinction',
@@ -162,10 +144,8 @@ const birdsDataEn = [
       name: 'Dindon ocellé',
       latinName: 'Agriocharis ocellata',
       species: 'Phasianidés',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/244658841/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/523827/mp3',
+      image: '/assets/images/244658841_1800.jpg',
+      audio: '/assets/audio/523827_mp3.mp3',
       lng: '70 – 90 cm',
       span: '90 – 113 cm',
       description: 'Forêts du Yucatán, Belize et du Nord du Guatemala',
@@ -176,10 +156,8 @@ const birdsDataEn = [
       name: 'Euplecte monseigneur',
       latinName: 'Euplectes hordeaceus',
       species: 'Plocéidés',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/547135/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/239360781/1800',
+      audio: '/assets/audio/547135_mp3.mp3',
+      image: '/assets/images/239360781_1800.jpg',
       lng: '12 cm',
       span: '29 – 33 cm',
       description: 'Zones humides, prairies sud-africaines',
@@ -191,10 +169,8 @@ const birdsDataEn = [
     {
       name: 'Grand corbeau',
       latinName: 'Corvus corax',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/549855/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/300152741/1800',
+      audio: '/assets/audio/549855_mp3.mp3',
+      image: '/assets/images/300152741_1800.jpg',
       species: 'Corvidés',
       lng: '59 – 65 cm',
       span: '121 - 153 cm',
@@ -202,14 +178,13 @@ const birdsDataEn = [
         'Forêts, plaines accidentées, zones rurales, prairies du Nord Afrique, Europe, Asie, Groenland et Amérique du Nord',
       alimentation: 'Mammifères, lézards, vipères et cadavres d’animaux',
       status: 'Commun',
+      hasFlag: true,
     },
     {
       name: 'Geai gris du Canada',
       latinName: 'Perisoreus canadensis',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/549737/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/70582941/1800',
+      audio: '/assets/audio/549737_mp3.mp3',
+      image: '/assets/images/70582941_1800.jpg',
       species: 'Corvidés',
       lng: '31 cm',
       span: '45 cm',
@@ -221,10 +196,8 @@ const birdsDataEn = [
     {
       name: 'Chardonneret élégant',
       latinName: 'Carduelis carduelis',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527858/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256707351/1800',
+      audio: '/assets/audio/527858_mp3.mp3',
+      image: '/assets/images/256707351_1800.jpg',
       species: 'Fringillidés',
       lng: '12 cm',
       span: '23 cm',
@@ -232,14 +205,13 @@ const birdsDataEn = [
         'Forêts, zones boisées, prairies, friches et clôtures de jardin en Afrique du Nord, en Europe et en Asie',
       alimentation: 'Graines, en particulier les graines de chardon',
       status: "En voie d'extinction",
+      hasFlag: true,
     },
     {
       name: 'Pic épeiche',
       latinName: 'Dendrocopos major',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256154511/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/553480/mp3',
+      image: '/assets/images/256154511_1800.jpg',
+      audio: '/assets/audio/553480_mp3.mp3',
       species: 'Picidés',
       lng: '24 cm',
       span: '34 - 39 cm',
@@ -247,14 +219,13 @@ const birdsDataEn = [
         "Forêts et zones boisées d'Afrique du Nord (Tunisie, Algérie, Maroc), d'Europe et d'Asie",
       alimentation: 'Insectes et larves',
       status: 'Commun',
+      hasFlag: true,
     },
     {
       name: 'Pic à ventre blanc',
       latinName: 'Dryocopus javensi',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/147342301/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/542679/mp3',
+      image: '/assets/images/147342301_1800.jpg',
+      audio: '/assets/audio/542679_mp3.mp3',
       species: 'Picidés',
       lng: '48 cm',
       span: '60 - 63 cm',
@@ -266,10 +237,9 @@ const birdsDataEn = [
     {
       name: 'Huppe fasciée',
       latinName: 'Upupa epops',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/186308261/320',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/553459/mp3',
+      hasFlag: true,
+      image: '/assets/images/186308261_320.jpg',
+      audio: '/assets/audio/553459_mp3.mp3',
       species: 'Upupidés',
       lng: '26 - 28 cm',
       span: '42 - 64 cm',
@@ -283,10 +253,8 @@ const birdsDataEn = [
     {
       name: 'Calao bicorne',
       latinName: 'Buceros bicornis',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/146172791/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/542521/mp3',
+      image: '/assets/images/146172791_1800.jpg',
+      audio: '/assets/audio/542521_mp3.mp3',
       species: 'Bucérotidés',
       lng: '105 cm',
       span: '180 cm',
@@ -299,10 +267,8 @@ const birdsDataEn = [
     {
       name: 'Casoar à casque',
       latinName: 'Casuarius casuarius',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/121400251/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537735/mp3',
+      image: '/assets/images/121400251_1800.jpg',
+      audio: '/assets/audio/537735_mp3.mp3',
       species: 'Casuariidés',
       lng: '119 - 180 cm',
       description:
@@ -313,10 +279,9 @@ const birdsDataEn = [
     {
       name: 'Guêpier d’Europe',
       latinName: 'Merops apiaster',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/459241061/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/553463/mp3',
+      hasFlag: true,
+      image: '/assets/images/459241061_1800.jpg',
+      audio: '/assets/audio/553463_mp3.mp3',
       species: 'Meropidés',
       lng: '28 cm',
       span: '47 cm',
@@ -328,10 +293,8 @@ const birdsDataEn = [
     {
       name: 'Pirolle de Taiwan',
       latinName: 'Urocissa caerulea',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/85864811/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/86801811/mp3',
+      image: '/assets/images/85864811_1800.jpg',
+      audio: '/assets/audio/86801811_mp3.mp3',
       species: 'Corvidés',
       lng: '65 cm',
       span: '111 cm',
@@ -342,10 +305,8 @@ const birdsDataEn = [
     {
       name: 'Grand tétras',
       latinName: 'Tetrao urogallus',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/614055613/900',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527465/mp3',
+      image: '/assets/audio/614055613_900.jpg',
+      audio: '/assets/audio/527465_mp3.mp3',
       species: 'Phasianidés',
       lng: '115 cm',
       span: '125 cm',
@@ -356,10 +317,9 @@ const birdsDataEn = [
     {
       name: 'Paon bleu',
       latinName: 'Pavo cristatus',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/97326721/1800',
+      image: '/assets/images/97326721_1800.jpg',
       audio:
-        'https: //cdn.download.ams.birds.cornell.edu/api/v2/asset/534904/mp3',
+        'https: //cdn.download.ams.birds.cornell.edu/api/v2/asset/534904_mp3.mp3',
       species: 'Phasianidés',
       lng: '90 - 230 cm',
       span: '130 - 160 cm',
@@ -372,10 +332,8 @@ const birdsDataEn = [
     {
       name: 'Ménure superbe',
       latinName: 'Menura novaehollandiae',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/123607821/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537997/mp3',
+      image: '/assets/images/123607821_1800.jpg',
+      audio: '/assets/audio/537997_mp3.mp3',
       species: 'Ménuridés',
       lng: '103 cm',
       span: '150 cm',
@@ -386,10 +344,8 @@ const birdsDataEn = [
     {
       name: 'Toucan toco',
       latinName: 'Ramphastos toco',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/96276931/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/530216/mp3',
+      image: '/assets/images/96276931_1800.jpg',
+      audio: '/assets/audio/530216_mp3.mp3',
       species: 'Ramphastidés',
       lng: '61 cm',
       span: '75 - 80 cm',
@@ -400,10 +356,8 @@ const birdsDataEn = [
     {
       name: 'Grue du Japon',
       latinName: 'Grus japonensis',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/158872801/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/542360/mp3',
+      image: '/assets/images/158872801_1800.jpg',
+      audio: '/assets/audio/542360_mp3.mp3',
       species: 'Gruidés',
       lng: '150 cm',
       span: '250 cm',
@@ -415,10 +369,8 @@ const birdsDataEn = [
     {
       name: 'Ibis chauve',
       latinName: 'Geronticus eremita',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/45936051/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527485/mp3',
+      image: '/assets/images/45936051_1800.jpg',
+      audio: '/assets/audio/527485_mp3.mp3',
       species: 'Threskiornithidés',
       lng: '80 cm',
       span: '130 cm',
@@ -432,10 +384,8 @@ const birdsDataEn = [
       name: 'Pélican brun',
       latinName: 'Pelecanus occidentalis',
       species: 'Pélécanidés',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/304463771/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/535014/mp3',
+      image: '/assets/images/304463771_1800.jpg',
+      audio: '/assets/audio/535014_mp3.mp3',
       lng: '109 cm',
       span: '200 cm',
       description:
@@ -445,12 +395,11 @@ const birdsDataEn = [
     },
     {
       name: 'Talève sultane / Poule sultane',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/54358971/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537810/mp3',
+      image: '/assets/images/54358971_1800.jpg',
+      audio: '/assets/audio/537810_mp3.mp3',
       latinName: 'Porphyrio porphyrio',
       species: 'Rallidés',
+      hasFlag: true,
       lng: '50 cm',
       span: '95 cm',
       description:
@@ -465,10 +414,8 @@ const birdsDataEn = [
       name: 'Bernache rousse',
       latinName: 'Branta canadensis',
       species: 'Anatidés',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/59953191/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/547951/mp3',
+      image: '/assets/images/59953191_1800.jpg',
+      audio: '/assets/audio/547951_mp3.mp3',
       lng: '110 cm',
       span: '122 - 183 cm',
       description: 'Zones humides et littorales d’Amérique du Nord',
@@ -478,10 +425,9 @@ const birdsDataEn = [
     {
       name: 'Cigogne blanche',
       latinName: 'Ciconia ciconia',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/254730691/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527476/mp3',
+      hasFlag: true,
+      image: '/assets/images/254730691_1800.jpg',
+      audio: '/assets/audio/527476_mp3.mp3',
       species: 'Ciconiidés',
       lng: '102 cm',
       span: '160 cm',
@@ -492,11 +438,10 @@ const birdsDataEn = [
     },
     {
       name: 'Flamant rose',
+      hasFlag: true,
       latinName: 'Phoenicopterus roseus',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/54167691/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537783/mp3',
+      image: '/assets/images/54167691_1800.jpg',
+      audio: '/assets/audio/537783_mp3.mp3',
       species: 'Phoenicopteridés',
       lng: '120 - 145 cm',
       span: '140 – 160 cm',
@@ -508,10 +453,8 @@ const birdsDataEn = [
     {
       name: 'Canard mandarin',
       latinName: 'Aix galericulata',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/241982721/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/541275/mp3',
+      image: '/assets/images/241982721_1800.jpg',
+      audio: '/assets/audio/541275_mp3.mp3',
       species: 'Anatidés',
       lng: '41 - 49 cm',
       span: '65 - 75 cm',
@@ -522,10 +465,8 @@ const birdsDataEn = [
     },
     {
       name: 'Outarde canepetière',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/620300874/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527503/mp3',
+      image: '/assets/images/620300874_1800.jpg',
+      audio: '/assets/audio/527503_mp3.mp3',
       latinName: 'Tetrax tetrax',
       species: 'Otididés',
       lng: '40 - 45 cm',
@@ -537,10 +478,9 @@ const birdsDataEn = [
     },
     {
       name: 'Ganga cata',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/172620811/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/528121/mp3',
+      hasFlag: true,
+      image: '/assets/images/172620811_1800.jpg',
+      audio: '/assets/audio/528121_mp3.mp3',
       latinName: 'Pterocles alchata',
       species: 'Ptéroclidés',
       lng: '39 cm',
@@ -555,11 +495,10 @@ const birdsDataEn = [
     {
       name: 'Cochévis de Thékla',
       latinName: 'Galerida cristata',
+      hasFlag: true,
       species: 'Alaudidés',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/457456661/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/538198/mp3',
+      image: '/assets/images/457456661_1800.jpg',
+      audio: '/assets/audio/538198_mp3.mp3',
       lng: '19 cm',
       span: '29 - 34 cm',
       description: 'Forêts et prairies sèches en Afrique, en Europe et en Asie',
@@ -568,10 +507,8 @@ const birdsDataEn = [
     },
     {
       name: 'Pintade vulturine',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/610665867/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/551789/mp3',
+      image: '/assets/images/610665867_1800.jpg',
+      audio: '/assets/audio/551789_mp3.mp3',
       latinName: 'Acryllium vulturinum',
       species: 'Numididés',
       lng: '70 – 72 cm',
@@ -583,11 +520,10 @@ const birdsDataEn = [
     },
     {
       name: 'Fou du bassan',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/66025421/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/522013/mp3',
+      image: '/assets/images/66025421_1800.jpg',
+      audio: '/assets/audio/522013_mp3.mp3',
       latinName: 'Morus bassanus',
+      hasFlag: true,
       species: 'Sulidés',
       lng: '85 – 90 cm',
       span: '165 – 180 cm',
@@ -598,10 +534,9 @@ const birdsDataEn = [
     {
       name: 'Grand cormoran',
       latinName: 'Phalacrocorax carbo',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/66026521/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/523782/mp3',
+      hasFlag: true,
+      image: '/assets/images/66026521_1800.jpg',
+      audio: '/assets/audio/523782_mp3.mp3',
       species: 'Phalacrocoracidés',
       lng: '82 – 100 cm',
       span: '132 – 163 cm',
@@ -612,10 +547,8 @@ const birdsDataEn = [
     {
       name: 'Manchot empereur',
       latinName: 'Aptenodytes forsteri',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/362635561/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/388782961/mp3',
+      image: '/assets/images/362635561_1800.jpg',
+      audio: '/assets/audio/388782961_mp3.mp3',
       species: 'Spheniscidés',
       lng: '122 cm',
       description: 'Antarctique',
@@ -625,16 +558,15 @@ const birdsDataEn = [
     {
       name: 'Goéland d’Audouin',
       latinName: 'Ichthyaetus audouinii',
+      hasFlag: true,
       species: 'Laridés',
       lng: '52 cm',
       span: '125 – 138 cm',
       description: 'Côtes et îles méditerranéennes',
       alimentation: 'Poissons, invertébrés marins',
       status: 'Relativement commun',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/253702671/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537883/mp3',
+      image: '/assets/images/253702671_1800.jpg',
+      audio: '/assets/audio/537883_mp3.mp3',
     },
   ],
 ];
@@ -661,10 +593,8 @@ const birdsDataRu = [
       alimentation:
         'القوارض، الثدييات الصغيرة (القواع، صغار الثعلب وابن آوى)، الطيور الصغيرة.',
       status: 'شائع',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/305364081/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/549080/mp3',
+      image: '/assets/images/305364081_1800.jpg',
+      audio: '/assets/audio/549080_mp3.mp3',
     },
     {
       name: 'ساف / باشق أوراسي',
@@ -675,10 +605,9 @@ const birdsDataRu = [
       description: 'الغابات والأحراج والمناطق الجبلية بإفريقيا وأوروبا وآسيا.',
       alimentation: 'الطيور الصغيرة.',
       status: 'شائع',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/254927951/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/553432/mp3',
+      image: '/assets/images/254927951_1800.jpg',
+      audio: '/assets/audio/553432_mp3.mp3',
+      hasFlag: true,
     },
     {
       name: 'عقاب مخادع',
@@ -688,10 +617,8 @@ const birdsDataRu = [
       span: '188 صم',
       description: 'الغابات المدارية والاستوائية بأمريكا الجنوبية.',
       alimentation: 'الثدييات، الطيور، الثعابين.',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/245402661/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/540007/mp3',
+      image: '/assets/images/245402661_1800.jpg',
+      audio: '/assets/audio/540007_mp3.mp3',
       status: 'نادر',
     },
     {
@@ -705,10 +632,8 @@ const birdsDataRu = [
       alimentation:
         'الثدييات الصغيرة مثل القوارض، الطيور مثل البطّ والإوزّ، أحيانا الأسماك.',
       status: 'شائع',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/297365891/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/549169/mp3',
+      image: '/assets/images/297365891_1800.jpg',
+      audio: '/assets/audio/549169_mp3.mp3',
     },
     {
       name: 'بومة فهد الليل',
@@ -721,11 +646,10 @@ const birdsDataRu = [
         'الغابات والأحراج والسباسب والبوادي والسهول والمناطق الجافة بشمال إفريقيا وأوروبا وآسيا.',
       alimentation:
         'القوارض والقواع والأفاعي والسحالي والحيات وصغار ابن آوى أو الثعلب.',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/258097941/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527577/mp3',
+      image: '/assets/images/258097941_1800.jpg',
+      audio: '/assets/audio/527577_mp3.mp3',
       status: 'شائع',
+      hasFlag: true,
     },
     {
       name: 'كوندور كاليفورنيا',
@@ -738,10 +662,8 @@ const birdsDataRu = [
       alimentation:
         'جثث الحيوانات البرية والأليفة (الأبقار والخرفان) والثدييات الصغيرة.',
       status: 'نادر نسبيا',
-      image:
-        'https://www.leesonphoto.com/img-get/I000041Oqw1wdcaE/s/600/600/C3A0286.jpg',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/522053/mp3',
+      image: '/assets/images/600_C3A0286.jpg',
+      audio: '/assets/audio/522053_mp3.mp3',
     },
   ],
   [
@@ -754,10 +676,8 @@ const birdsDataRu = [
       span: '50 – 55 صم',
       description: 'مستوطن بغابات بورتوريكو.',
       alimentation: 'الأزهار، الثمار، الأوراق النباتية.',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/536459/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/106627111/1800',
+      audio: '/assets/audio/536459_mp3.mp3',
+      image: '/assets/images/106627111_1800.jpg',
       status: 'نادر جدا',
     },
     {
@@ -770,10 +690,8 @@ const birdsDataRu = [
       description:
         'الغابات المطيرة ابتداء من بنما حتى منطقة ساو باولو بالبرازيل.',
       alimentation: 'الثمار.',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/530282/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/58162541/1800',
+      audio: '/assets/audio/530282_mp3.mp3',
+      image: '/assets/images/58162541_1800.jpg',
       status: 'شائع نسبيا، مهدّد في بعض المناطق التي يكثر فيها اقتطاع الأشجار.',
     },
     {
@@ -786,10 +704,8 @@ const birdsDataRu = [
       description: 'الغابات الرطبة ببلدان إفريقيا الوسطى والغربية.',
       alimentation: 'غالبا الثمار والبذور.',
       status: 'شائع',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/546545/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/240817371/1800',
+      audio: '/assets/audio/546545_mp3.mp3',
+      image: '/assets/images/240817371_1800.jpg',
     },
     {
       name: 'كوكال أخضر المنقار',
@@ -801,10 +717,8 @@ const birdsDataRu = [
       description: 'يعيش بالغابات المطيرة في سيريلانكا.',
       alimentation: 'الحشرات، الديدان، الفقاريات الصغيرة (قوارض، سحالي..).',
       status: 'في طور الانقراض',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/547236/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/252001001/1800',
+      audio: '/assets/audio/547236_mp3.mp3',
+      image: '/assets/images/252001001_1800.jpg',
     },
     {
       name: 'ديك رومي متأنق',
@@ -816,19 +730,15 @@ const birdsDataRu = [
       description: 'غابات جزيرة يوكاتان وجمهورية بليز وشمال غواتيمالا.',
       alimentation: 'النباتات والمواد العضوية.',
       status: 'نادر جدا',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/244658841/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/523827/mp3',
+      image: '/assets/images/244658841_1800.jpg',
+      audio: '/assets/audio/523827_mp3.mp3',
     },
     {
       name: 'أبلاكت نبيل',
       latinName: 'Euplectes hordeaceus',
       species: 'Plocéidés',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/547135/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/239360781/1800',
+      audio: '/assets/audio/547135_mp3.mp3',
+      image: '/assets/images/239360781_1800.jpg',
       lng: '12 صم',
       span: '29 – 33 صم',
       description: 'يعيش بالمناطق الرطبة و الحقول بجنوب إفريقيا. ',
@@ -846,10 +756,8 @@ const birdsDataRu = [
       span: '121 - 153 صم',
       description:
         'الغابات والأحراج والأرياف والسهول والسباسب بشمال إفريقيا وأوروبا وآسيا وقرويلاند وأمريكا الشمالية.',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/549855/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/300152741/1800',
+      audio: '/assets/audio/549855_mp3.mp3',
+      image: '/assets/images/300152741_1800.jpg',
       alimentation: 'الثدييّات والسحالي والحيات وجثث الحيوانات.',
       status: 'شائع',
     },
@@ -858,15 +766,14 @@ const birdsDataRu = [
       latinName: 'Perisoreus canadensis',
       species: 'الغرابيات (Corvidés)',
       lng: '31 صم',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/549737/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/70582941/1800',
+      audio: '/assets/audio/549737_mp3.mp3',
+      image: '/assets/images/70582941_1800.jpg',
       span: '45 صم',
       description: 'الغابات الصنوبرية والمختلطة بأمريكا الشمالية.',
       alimentation:
         'المفصليات، بقايا الحيوانات، الثمار البرية، فراخ الطيور الأخرى وبيضها.',
       status: 'شائع',
+      hasFlag: true,
     },
     {
       name: 'مقنين / حسّون أوراسي',
@@ -874,14 +781,13 @@ const birdsDataRu = [
       species: 'الشرشوريات (Fringillidés)',
       lng: '12 صم',
       span: '23 صم',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527858/mp3',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256707351/1800',
+      audio: '/assets/audio/527858_mp3.mp3',
+      image: '/assets/images/256707351_1800.jpg',
       description:
         'الغابات والأحراج والمروج والأراضي البور وأسيجة الحدائق بشمال إفريقيا وأوروبا وآسيا.',
       alimentation: 'الحبوب خصوصا بذور نباتات البكّ.',
       status: 'في طور الانقراض',
+      hasFlag: true,
     },
     {
       name: 'نقار الخشب الكبير',
@@ -889,15 +795,14 @@ const birdsDataRu = [
       latinName: 'Dendrocopos major',
       species: 'النقاريات (Picidés)',
       lng: '24 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/256154511/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/553480/mp3',
+      image: '/assets/images/256154511_1800.jpg',
+      audio: '/assets/audio/553480_mp3.mp3',
       span: '34 – 39 صم',
       description:
         'الغابات والأحراج بشمال إفريقيا (تونس، الجزائر، المغرب) وأوروبا وآسيا.',
       alimentation: 'الحشرات ويرقاتها، خصوصا مغمّدات الأجنحة.',
       status: 'شائع',
+      hasFlag: true,
     },
     {
       name: 'نقار الخشب أبيض البطن',
@@ -906,10 +811,8 @@ const birdsDataRu = [
       species: 'النقاريات (Picidés)',
       lng: '48 صم',
       span: '60 – 63 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/147342301/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/542679/mp3',
+      image: '/assets/images/147342301_1800.jpg',
+      audio: '/assets/audio/542679_mp3.mp3',
       description:
         'غابات دول جنوب شرق آسيا (الهند، الصين، كوريا الجنوبية والشمالية، اليابان، تايلندا..).',
       alimentation: 'الحشرات ويرقاتها، خصوصا النمل والنمل الأبيض.',
@@ -919,16 +822,15 @@ const birdsDataRu = [
       name: 'هدهد / تبّيب',
       french_name: 'Huppe fasciée',
       latinName: 'Upupa epops',
+      hasFlag: true,
       species: 'الهدهديّات (Upupidés)',
       lng: '26 – 28 صم',
       span: '42 – 64 صم',
       description:
         'الغابات والأحراج والفضاءات المكشوفة والبوادي والسباسب والمروج وأطراف البحيرات وقرب المراعي الشاسعة بإفريقيا وأوروبا وآسيا.',
       alimentation: 'الحشرات.',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/186308261/320',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/553459/mp3',
+      image: '/assets/images/186308261_320.jpg',
+      audio: '/assets/audio/553459_mp3.mp3',
       status: 'شائع',
     },
   ],
@@ -937,10 +839,8 @@ const birdsDataRu = [
       name: 'أبو قرن عملاق',
       french_name: 'Calao bicorne',
       latinName: 'Buceros bicornis',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/146172791/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/542521/mp3',
+      image: '/assets/images/146172791_1800.jpg',
+      audio: '/assets/audio/542521_mp3.mp3',
       lng: '105 صم',
       span: '180 صم',
       description:
@@ -952,10 +852,8 @@ const birdsDataRu = [
     {
       name: 'كاسواري ذو الخوذة',
       latinName: 'Casuarius casuarius',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/121400251/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537735/mp3',
+      image: '/assets/images/121400251_1800.jpg',
+      audio: '/assets/audio/537735_mp3.mp3',
       species: 'الكاسواريّات',
       lng: '119 - 180 سم',
       description:
@@ -967,11 +865,10 @@ const birdsDataRu = [
       name: 'وروار أوروبي / يامون',
       french_name: 'Guêpier d’Europe',
       latinName: 'Merops apiaster',
+      hasFlag: true,
       species: 'الورواريات (Meropidés)',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/459241061/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/553463/mp3',
+      image: '/assets/images/459241061_1800.jpg',
+      audio: '/assets/audio/553463_mp3.mp3',
       lng: '28 صم',
       span: '47 صم',
       description:
@@ -982,10 +879,8 @@ const birdsDataRu = [
     {
       name: 'زاغي',
       french_name: 'Pirolle de Taiwan',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/85864811/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/86801811/mp3',
+      image: '/assets/images/85864811_1800.jpg',
+      audio: '/assets/audio/86801811_mp3.mp3',
       latinName: 'Urocissa caerulea',
       species: 'الغرابيات (Anatidés)',
       lng: '65 صم',
@@ -998,10 +893,8 @@ const birdsDataRu = [
       name: 'ديك الخلنج الغربي',
       french_name: 'Grand tétras',
       latinName: 'Tetrao urogallus',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/614055613/900',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527465/mp3',
+      image: '/assets/audio/614055613_900.jpg',
+      audio: '/assets/audio/527465_mp3.mp3',
       species: 'الطيهوجيات (Phasianidés)',
       lng: '115 صم',
       span: '125 صم',
@@ -1020,10 +913,9 @@ const birdsDataRu = [
       alimentation:
         'الثمار، البذور، الحشرات، وبدرجة أقل القوارض والسحالي الصغيرة.',
       status: 'شائع نسبيا',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/97326721/1800',
+      image: '/assets/images/97326721_1800.jpg',
       audio:
-        'https: //cdn.download.ams.birds.cornell.edu/api/v2/asset/534904/mp3',
+        'https: //cdn.download.ams.birds.cornell.edu/api/v2/asset/534904_mp3.mp3',
     },
   ],
   [
@@ -1034,10 +926,8 @@ const birdsDataRu = [
       species: 'طيور القيثارة (Ménuridés)',
       lng: '103 صم',
       span: '150 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/123607821/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537997/mp3',
+      image: '/assets/images/123607821_1800.jpg',
+      audio: '/assets/audio/537997_mp3.mp3',
       description: 'الغابات المطيرة بأستراليا.',
       alimentation: 'الحشرات والدّيدان.',
       status: 'نادر جدا',
@@ -1049,10 +939,8 @@ const birdsDataRu = [
       species: 'الطوقانيات (Ramphastidés)',
       lng: '61 صم',
       span: '75 – 80 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/96276931/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/530216/mp3',
+      image: '/assets/images/96276931_1800.jpg',
+      audio: '/assets/audio/530216_mp3.mp3',
       description: 'الغابات الاستوائية من المكسيك الى الأرجنتين.',
       alimentation: 'الفواكه، العناكب، الحشرات، صغار الطير وبيضها.',
       status: 'شائع',
@@ -1063,10 +951,8 @@ const birdsDataRu = [
       latinName: 'Grus japonensis',
       species: 'الكركيات (Gruidés)',
       lng: '150 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/158872801/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/542360/mp3',
+      image: '/assets/images/158872801_1800.jpg',
+      audio: '/assets/audio/542360_mp3.mp3',
       span: '250 صم',
       description: 'المستنقعات والمناطق الرطبة المعتدلة للصين واليابان.',
       alimentation:
@@ -1077,10 +963,8 @@ const birdsDataRu = [
       name: 'أبو منجل الناسك',
       french_name: 'Ibis chauve',
       latinName: 'Geronticus eremita',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/45936051/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527485/mp3',
+      image: '/assets/images/45936051_1800.jpg',
+      audio: '/assets/audio/527485_mp3.mp3',
       species: 'الحارسيات (Threskiornithidés)',
       lng: '80 صم',
       span: '130 صم',
@@ -1099,22 +983,19 @@ const birdsDataRu = [
       description:
         'الغابات شبه المدارية الرطبة، الجزر، البحيرات والسواحل المهجورة بأمريكا الشمالية والوسطى والجنوبية.',
       alimentation: 'أسماك الأنشوّة والسردين.',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/304463771/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/535014/mp3',
+      image: '/assets/images/304463771_1800.jpg',
+      audio: '/assets/audio/535014_mp3.mp3',
       status: 'شائع نسبيا',
     },
     {
       name: 'حسون أرجواني / دجاجة سلطانية',
       french_name: 'Poule sultane / Talève sultane',
       latinName: 'Porphyrio porphyrio',
+      hasFlag: true,
       species: 'التفلقيات (Rallidés)',
       lng: '50 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/54358971/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537810/mp3',
+      image: '/assets/images/54358971_1800.jpg',
+      audio: '/assets/audio/537810_mp3.mp3',
       span: '95 صم',
       description:
         'تجمّعات القصب بجزر السالومون وأوروبا الجنوبية وآسيا وإفريقيا.',
@@ -1130,10 +1011,8 @@ const birdsDataRu = [
       latinName: 'Branta canadensis',
       species: 'الإوزيات (Anatidés)',
       lng: '110 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/59953191/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/547951/mp3',
+      image: '/assets/images/59953191_1800.jpg',
+      audio: '/assets/audio/547951_mp3.mp3',
       span: '122 - 183 صم',
       description: 'المناطق الرطبة والساحلية بأمريكا الشمالية وغرويلاند.',
       alimentation: 'البذور، النباتات المائية، الثمار البرية.',
@@ -1143,13 +1022,12 @@ const birdsDataRu = [
       name: 'لقلق أبيض',
       french_name: 'Cigogne blanche',
       latinName: 'Ciconia ciconia',
+      hasFlag: true,
       species: 'اللقلقيات (Ciconiidés)',
       lng: '102 صم',
       span: '160 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/254730691/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527476/mp3',
+      image: '/assets/images/254730691_1800.jpg',
+      audio: '/assets/audio/527476_mp3.mp3',
       description:
         'المناطق الرطبة المفتوحة ذات الغطاء النباتي بإفريقيا وأوروبا وآسيا.',
       alimentation: 'القوارض، الديدان، الزواحف، البرمائيات.',
@@ -1158,10 +1036,9 @@ const birdsDataRu = [
     {
       name: 'نحام وردي / بشروش',
       french_name: 'Flamant rose',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/54167691/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537783/mp3',
+      hasFlag: true,
+      image: '/assets/images/54167691_1800.jpg',
+      audio: '/assets/audio/537783_mp3.mp3',
       latinName: 'Phoenicopterus roseus',
       species: 'النحاميات (Phoenicopteridés)',
       lng: '120 - 145 صم',
@@ -1178,10 +1055,8 @@ const birdsDataRu = [
       species: 'البطيات (Anatidés)',
       lng: '41 – 49 صم',
       span: '65 – 75 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/241982721/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/541275/mp3',
+      image: '/assets/images/241982721_1800.jpg',
+      audio: '/assets/audio/541275_mp3.mp3',
       description:
         'المناطق الغابية التي تحتوي مسطحات مائية والموجودة بشمال شرق آسيا (الصين، اليابان، كوريا). توجد بعض الأعداد ببريطانيا وألمانيا وفرنسا.',
       alimentation: 'الأسماك والحبوب والأعشاب.',
@@ -1192,10 +1067,8 @@ const birdsDataRu = [
       french_name: 'Outarde canepetière',
       latinName: 'Tetrax tetrax',
       species: 'الحباريات (Otididés)',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/620300874/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/527503/mp3',
+      image: '/assets/images/620300874_1800.jpg',
+      audio: '/assets/audio/527503_mp3.mp3',
       lng: '40 - 45 صم',
       span: '80 - 90 صم',
       description:
@@ -1206,12 +1079,11 @@ const birdsDataRu = [
     {
       name: 'قطا عراقي',
       french_name: 'Ganga cata',
+      hasFlag: true,
       latinName: 'Pterocles alchata',
       species: 'القطائيات (Pteroclidés)',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/172620811/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/528121/mp3',
+      image: '/assets/images/172620811_1800.jpg',
+      audio: '/assets/audio/528121_mp3.mp3',
       lng: '39 صم',
       span: '54 - 65 صم',
       description:
@@ -1224,11 +1096,10 @@ const birdsDataRu = [
     {
       name: 'قبّرة متوّجة',
       french_name: 'Cochévis de Thékla',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/457456661/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/538198/mp3',
+      image: '/assets/images/457456661_1800.jpg',
+      audio: '/assets/audio/538198_mp3.mp3',
       latinName: 'Galerida cristata',
+      hasFlag: true,
       species: 'القبّريات (Alaudidés)',
       lng: '19 صم',
       span: '29 – 34 صم',
@@ -1240,10 +1111,8 @@ const birdsDataRu = [
     {
       name: 'غرغرة نسارية / طير غينيا نساري',
       french_name: 'Pintade vulturine',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/610665867/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/551789/mp3',
+      image: '/assets/images/610665867_1800.jpg',
+      audio: '/assets/audio/551789_mp3.mp3',
       latinName: 'Acryllium vulturinum',
       species: 'الغرغريات (Numididés)',
       lng: '70 - 72 صم',
@@ -1257,13 +1126,12 @@ const birdsDataRu = [
       name: 'أطيش شمالي / شميطة',
       french_name: 'Fou du bassan',
       latinName: 'Morus bassanus',
+      hasFlag: true,
       species: 'الأطيش (Sulidés)',
       lng: '85 - 90 صم',
       span: '165 - 180 صم',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/66025421/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/522013/mp3',
+      image: '/assets/images/66025421_1800.jpg',
+      audio: '/assets/audio/522013_mp3.mp3',
       description: 'شمال المحيط الأطلسي، عرض البحر الأبيض المتوسّط.',
       alimentation: 'الأسماك الصغيرة، أفعى البحر.',
       status: 'شائع',
@@ -1272,11 +1140,10 @@ const birdsDataRu = [
       name: 'غاق كبير',
       french_name: 'Grand cormoran',
       latinName: 'Phalacrocorax carbo',
+      hasFlag: true,
       species: 'الغاقيات (Phalacrocoracidés)',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/66026521/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/523782/mp3',
+      image: '/assets/images/66026521_1800.jpg',
+      audio: '/assets/audio/523782_mp3.mp3',
       lng: '82 - 100 صم',
       span: '132 - 163 صم',
       description: 'المياه الساحلية بآسيا وإفريقيا وأوروبا.',
@@ -1288,10 +1155,8 @@ const birdsDataRu = [
       french_name: 'Manchot empereur',
       latinName: 'Aptenodytes forsteri',
       species: 'البطاريق (Spheniscidés)',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/362635561/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/388782961/mp3',
+      image: '/assets/images/362635561_1800.jpg',
+      audio: '/assets/audio/388782961_mp3.mp3',
       lng: '122 صم',
       description: 'القطب الجنوبي.',
       alimentation: 'الأسماك والقشريات والرخويات مثل الكلمار.',
@@ -1300,16 +1165,15 @@ const birdsDataRu = [
     {
       name: 'زمّج الماء أدوين',
       latinName: 'Ichthyaetus audouinii',
+      hasFlag: true,
       species: 'الزمّجيات',
       lng: '52 سم',
       span: '125 – 138 سم',
       description: 'السواحل والجزر بالبحر الأبيض المتوسط',
       alimentation: 'الأسماك، اللافقاريات البحرية',
       status: 'شائع نسبيا',
-      image:
-        'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/253702671/1800',
-      audio:
-        'https://cdn.download.ams.birds.cornell.edu/api/v2/asset/537883/mp3',
+      image: '/assets/images/253702671_1800.jpg',
+      audio: '/assets/audio/537883_mp3.mp3',
     },
   ],
 ];

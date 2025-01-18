@@ -131,3 +131,34 @@ button {
 ::-webkit-scrollbar-corner {
   background-color: transparent;
 }
+
+/* Style the pagination wrapper */
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  margin-top: 20px;
+}
+
+/* Style the individual pagination buttons */
+.pagination-wrapper button {
+  padding: 10px 20px;
+  background-color: #f1c40f; /* Yellow background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Add hover effect for the buttons */
+.pagination-wrapper button:hover {
+  background-color: #f39c12; /* Darker yellow on hover */
+}
+
+/* Style the disabled buttons */
+.pagination-wrapper button:disabled {
+  background-color: #bdc3c7; /* Light gray when disabled */
+  cursor: not-allowed;
+}
