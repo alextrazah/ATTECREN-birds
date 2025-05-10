@@ -84,12 +84,12 @@ const strings = {
     [lng.nextButton]: 'السؤال التالي',
     [lng.showResults]: 'إظهار النتائج',
     [lng.score]: 'النتيجة',
-    [lng.resultsTitle]: 'تهانينا!',
+    [lng.resultsTitle]: '!تهانينا',
     [lng.resultsMessage]: 'لقد أكملت الاختبار وحصلت على xxx من أصل yyy نقطة ممكنة.',
     [lng.resultsMaximumMessage]: 'رائع! لقد حصلت على الحد الأقصى من النقاط (yyy) في هذا الاختبار!',
     [lng.tryAgain]: 'حاول مرة أخرى',
 
-    [lng.welcomeTitle]: 'ATEECREN مرحبًا بك في',
+    [lng.welcomeTitle]: ' مرحبًا بك في الجمعية التونسية للتربية البيئية و المحافظة على الموارد الطبيعية',
     [lng.welcomeMessage]: ` نقدم لكم تطبيق مه خلال اختبار يتيح لك التعرف على أصوات الطيور. 
                           للبدء، اختر أحد الخيارات أدناه.`,
     [lng.welcomePlay]: 'ابدأ الاختبار',
